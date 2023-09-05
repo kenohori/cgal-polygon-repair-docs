@@ -1,0 +1,25 @@
+var class_c_g_a_l_1_1_multipolygon__with__holes__2 =
+[
+    [ "Polygon_2", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#ad4c0f8b6ec0e00514e4ee8df2dfe8377", null ],
+    [ "Polygon_const_iterator", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#a3b85621251b283bfb5710ff97119a79f", null ],
+    [ "Polygon_iterator", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#a9531faede8919dc14ced21eea80667a6", null ],
+    [ "Polygon_with_holes_2", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#a4b36e39c6f7d6421aeb10bd18391ecdc", null ],
+    [ "Polygons_container", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#ad5af7e2cf19ed6770d635e3d4903830e", null ],
+    [ "Size", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#abac63d31dfe6a053e95862f97accbd84", null ],
+    [ "Multipolygon_with_holes_2", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#a642968e7141bbc285598833a2bfd32c7", null ],
+    [ "Multipolygon_with_holes_2", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#a8367a3ff7b634e645513ce6341d069e9", null ],
+    [ "add_polygon", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#aaecc79b95f25b63c16265bc9a51e1bbf", null ],
+    [ "add_polygon", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#a31a62d075775209ca1d4491e95bfb256", null ],
+    [ "add_polygon", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#a699ab01afc042f186d0eba2fb17b7828", null ],
+    [ "clear", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#ac24f13ecaac6da98f666150114669c46", null ],
+    [ "erase_polygon", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#adc10ba17e76a6dedf4c0f20fdd428cce", null ],
+    [ "number_of_polygons", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#a60416c05176c2457c42931a7ee11f32a", null ],
+    [ "polygons", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#a93f5b5e04624215d3160eba4ff7bd259", null ],
+    [ "polygons", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#a522fd155512bb4c827c9178b25a24dc1", null ],
+    [ "polygons_begin", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#aedb869a9b9340fd34dc875c9f282f453", null ],
+    [ "polygons_begin", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#a091eabefd58f0ab984fec5b016a5877d", null ],
+    [ "polygons_end", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#a252e91495b8fe89b74786ba09df22d23", null ],
+    [ "polygons_end", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#a6023ce182db1693006c4b75fc008c2bf", null ],
+    [ "operator<<", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#af5b0068a1e5377a69063534d54d881f8", null ],
+    [ "m_polygons", "class_c_g_a_l_1_1_multipolygon__with__holes__2.html#a051e386ee4eabb7879ba56bd4618bf7b", null ]
+];

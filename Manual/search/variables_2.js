@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['c_0',['C',['../../Periodic_4_hyperbolic_triangulation_2/class_c_g_a_l_1_1_hyperbolic__octagon__translation.html#ad8d7068cd336de2c5a59b841b6d32b3da9fe586db8dd96718764d573152efb220',1,'CGAL::Hyperbolic_octagon_translation']]],
+  ['c_5fbar_1',['C_BAR',['../../Periodic_4_hyperbolic_triangulation_2/class_c_g_a_l_1_1_hyperbolic__octagon__translation.html#ad8d7068cd336de2c5a59b841b6d32b3da8bc2157cf8ac46166bd9b561858da329',1,'CGAL::Hyperbolic_octagon_translation']]],
+  ['cant_5fimprove_5fanymore_2',['CANT_IMPROVE_ANYMORE',['../../Mesh_2/group___pkg_mesh2_enum.html#ggab9fe60482a45120b3c061a8a4ec9018da9c7c2f09314491da054f3f5d7d7ab3b9',1,'CGAL']]],
+  ['cell_3',['CELL',['../../Triangulation_3/class_c_g_a_l_1_1_triangulation__3.html#a5bea7d3470854571f97c18a675daca75aa264f5df83d639caa57ea1def2f16f36',1,'CGAL::Triangulation_3::CELL()'],['../../Periodic_3_triangulation_3/class_c_g_a_l_1_1_periodic__3__triangulation__3.html#aea197e602957a638211eb9f3f7f2c295afd2f506e985e2d91473fab7f31245bcc',1,'CGAL::Periodic_3_triangulation_3::CELL()']]],
+  ['circle_4',['circle',['../../Bounding_volumes/class_min_circle2_traits.html#a9216dd130e0c628b7f41b3ecf13072b9',1,'MinCircle2Traits']]],
+  ['clockwise_5',['CLOCKWISE',['../../Kernel_23/group__kernel__enums.html#ga5aa0906f2432d414090dd8723c10f304',1,'CGAL']]],
+  ['closed_6',['CLOSED',['../../Box_intersection_d/namespace_c_g_a_l_1_1_box__intersection__d.html#ac1b7703e33d0fe5d9d484493189c9cd8af287bd8f3714b65e743d5ec571e89b82',1,'CGAL::Box_intersection_d']]],
+  ['closed_5fhalfspace_7',['CLOSED_HALFSPACE',['../../Nef_3/class_c_g_a_l_1_1_nef__polyhedron__3.html#a096557e7a2baaece098dc0ce836b2143ab903ba352883f399a05fec88164b4c6f',1,'CGAL::Nef_polyhedron_3']]],
+  ['cluster_5fepsilon_8',['cluster_epsilon',['../../Shape_detection/struct_c_g_a_l_1_1_shape__detection_1_1_efficient___r_a_n_s_a_c_1_1_parameters.html#ae073f536f9810f026bc013db80df042c',1,'CGAL::Shape_detection::Efficient_RANSAC::Parameters']]],
+  ['collinear_9',['COLLINEAR',['../../Kernel_23/group__kernel__enums.html#ga84f760a315c4f27cb4059db8a3a1159e',1,'CGAL']]],
+  ['collinear_5f3_10',['Collinear_3',['../../Convex_hull_3/class_c_g_a_l_1_1_convex__hull__traits__3.html#afcf410e2360b257848a7b0e9b4abd923',1,'CGAL::Convex_hull_traits_3']]],
+  ['complete_11',['COMPLETE',['../../Nef_2/class_c_g_a_l_1_1_nef__polyhedron__2.html#ab5f1c19c50d23c0a759c2d2b1bb60bd0acbd2d7c6e526cfad582f001a6a0042a3',1,'CGAL::Nef_polyhedron_2::COMPLETE()'],['../../Nef_S2/class_c_g_a_l_1_1_nef__polyhedron___s2.html#a3ce8658c7c7445e8f074d2c03c945823a0b0522ca5df388099c82fefe571d2b23',1,'CGAL::Nef_polyhedron_S2::COMPLETE()'],['../../Nef_3/class_c_g_a_l_1_1_nef__polyhedron__3.html#a29ea7a3eb633b6b5a8b46b3a76c4126faeb53d09b1577506c90bede5588e05369',1,'CGAL::Nef_polyhedron_3::COMPLETE()'],['../../Box_intersection_d/namespace_c_g_a_l_1_1_box__intersection__d.html#a7539d6db67bbedc4e4dc9ffe53d13d42a4e3148a70fdfc4e7449a985121ec2252',1,'CGAL::Box_intersection_d::COMPLETE()']]],
+  ['continue_12',['CONTINUE',['../../STL_Extension/group___pkg_s_t_l_extension_assertions.html#ggac5eee7bb7edcc41dd3251042c5934deea697442e04c769afa5f8506d7dd378ed4',1,'CGAL']]],
+  ['continuous_13',['CONTINUOUS',['../../Solver_interface/class_mixed_integer_program_variable.html#a55793de034d31f7fee92c355f0498b3ea3533375dfc370864cbd6f785ca7a32c8',1,'MixedIntegerProgramVariable']]],
+  ['convergence_5freached_14',['CONVERGENCE_REACHED',['../../Mesh_2/group___pkg_mesh2_enum.html#ggab9fe60482a45120b3c061a8a4ec9018da19d4b9484d2ed90e8fec7e1194d25df2',1,'CGAL']]],
+  ['coplanar_15',['COPLANAR',['../../Kernel_23/group__kernel__enums.html#ga56587f3c15032c9127a9fe81c038b0d7',1,'CGAL']]],
+  ['coplanar_5f3_16',['Coplanar_3',['../../Convex_hull_3/class_c_g_a_l_1_1_convex__hull__traits__3.html#a4aa93a4f34fc98e564eefdd20f279432',1,'CGAL::Convex_hull_traits_3']]],
+  ['cost_17',['cost',['../../Polyline_simplification_2/class_c_g_a_l_1_1_polyline__simplification__2_1_1_polyline__simplification__2.html#a5c4c71b9f1e9ca994c93eb6e2e77e3fc',1,'CGAL::Polyline_simplification_2::Polyline_simplification_2']]],
+  ['cotangent_18',['Cotangent',['../../Surface_mesh_parameterization/group___pkg_surface_mesh_parameterization_enums.html#gga992e12bb57ad83cbeb41ff2439669561a4e7d1d391eb846790038dbf17183b2bb',1,'CGAL::Surface_mesh_parameterization']]],
+  ['counterclockwise_19',['COUNTERCLOCKWISE',['../../Kernel_23/group__kernel__enums.html#ga39fcfbab0b0f0ce9139ad1613e21d60d',1,'CGAL']]],
+  ['crease_20',['CREASE',['../../Point_set_processing_3/class_c_g_a_l_1_1_point__set__with__structure.html#aaada4e3848c92698219ee8899b996aaaa6651bbaf37b21104a6e65bf180f8dfff',1,'CGAL::Point_set_with_structure']]]
+];

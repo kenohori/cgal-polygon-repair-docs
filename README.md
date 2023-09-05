@@ -1,1 +1,0 @@
-# cgal-polygon-repair-docs

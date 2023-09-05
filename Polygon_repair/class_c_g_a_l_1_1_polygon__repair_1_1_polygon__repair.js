@@ -1,0 +1,28 @@
+var class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair =
+[
+    [ "Polygon_less", "struct_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair_1_1_polygon__less.html", "struct_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair_1_1_polygon__less" ],
+    [ "Polygon_with_holes_less", "struct_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair_1_1_polygon__with__holes__less.html", "struct_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair_1_1_polygon__with__holes__less" ],
+    [ "Constrained_Delaunay_triangulation", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#aa7072a37a39d6cbd82c67e129bd1042a", null ],
+    [ "Face_base", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#ac9742bf6cf2eb8e79edaf5d7a86cd4c3", null ],
+    [ "Face_base_with_repair_info", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#adfc541fbd15832439228db2f1538a782", null ],
+    [ "Tag", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#ad054077db1e392dce7cf384c9880e0ad", null ],
+    [ "Triangulation", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#ac14fa20deb731ca2a373d60ffe654e38", null ],
+    [ "Triangulation_data_structure", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a8363f258349c1044854dd49f7df46897", null ],
+    [ "Vertex_base", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a73c11105416871a325515375f38d5c2a", null ],
+    [ "Polygon_repair", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a1a3b594daa2ae10106eb8108fb4ae06f", null ],
+    [ "add_to_triangulation_odd_even", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a7335b7699bcc5813a6286426448aa388", null ],
+    [ "add_to_triangulation_odd_even", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a76e85949e1d7763872642fcbed3b3d1d", null ],
+    [ "add_to_triangulation_odd_even", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a52a79461e423b8e98b2096ca47ae86bc", null ],
+    [ "clear", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a3e81ff42a65780e68173f57f73d1cb57", null ],
+    [ "label_region", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a0b600dedc405381b229e05d1f3d8deb7", null ],
+    [ "label_triangulation_odd_even", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a62591319bf9f113368ec5e5522236dd2", null ],
+    [ "multipolygon", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a56d0ca4c89dda61e52d0db3c1cd8efad", null ],
+    [ "reconstruct_multipolygon", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a9451bc21ce29e6145ec9eadbf4076e65", null ],
+    [ "reconstruct_ring", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#ac929f84eb3fb7ceb9d846b621b44e5b8", null ],
+    [ "triangulation", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a28875a920832d9bc10b78fb8c9338415", null ],
+    [ "mp", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#af0c47c26198b33760a47bd32c12fbf37", null ],
+    [ "number_of_holes", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a91dabe693979f80ab92fb929f14f6fe2", null ],
+    [ "number_of_polygons", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a3fec3342bdf0d3c82b7ea26675104efb", null ],
+    [ "search_start", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#ab328657261ec43d7448279d0d59caadc", null ],
+    [ "t", "class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#af3802946025a306032cebef2fe386936", null ]
+];
