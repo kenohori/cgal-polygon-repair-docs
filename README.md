@@ -1,5 +1,7 @@
 This repository contains the final report and documentation produced for the Computational Geometry Algorithms Library (CGAL) Project in the Google Summer of Code (GSoC) 2023. It documents the achievements and obstacles that I have encountered during the last fifteen weeks. This report also presents a summary of the work done during the program and how it can be developed in the future.
 
+All the commits made during the GSoC are available [here](https://github.com/CGAL/cgal/issues/7699) and the work will be added to CGAL through [this pull request](https://github.com/CGAL/cgal/pull/7608).
+
 ## 1. Background
 
 Polygons are usually represented by one outer ring and possibly multiple inner rings representing holes, where each ring is usually represented as a sequence of points. This allows for several undesirable configurations, such as self-intersecting rings, badly nested rings (inner outside outer), and inner rings that split the interior of the polygon into multiple disjoint parts. Such undesirable configurations are considered as invalid polygons in many applications, such as in Geographic Information Systems through ISO 19107. Polygon repair methods aim to apply a method to always return a valid set of polygons given a possibly invalid set of input polygons.
