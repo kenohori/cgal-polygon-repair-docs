@@ -172,12 +172,12 @@ $(document).ready(function(){initNavTree('devman_create_and_use_a_cmakelist.html
 <p>A base can be created using the script <code>cgal_create_CMakeLists</code>. Its usage is detailed in Section <a class="el" href="devman_create_cgal__c_make_lists.html">Creating a CMake Script for a Program Using CGAL</a>. </p>
 <h1><a class="anchor" id="seclink"></a>
 Linking with CGAL</h1>
-<p>To link with the CGAL library, use the following: </p><div class="fragment"><div class="line">find_package(<a class="code hl_namespaceRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a> REQUIRED)</div>
+<p>To link with the CGAL library, use the following: </p><div class="fragment"><div class="line">find_package(<a class="code hl_namespaceRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a> REQUIRED)</div>
 <div class="line">add_executable(my_executable my_source_file.cpp)</div>
 <div class="line">target_link_libraries(my_executable CGAL::CGAL)</div>
-<div class="ttc" id="anamespace_c_g_a_l_1_1_polygon__repair_html"><div class="ttname"><a href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a></div></div>
+<div class="ttc" id="anamespace_c_g_a_l_html"><div class="ttname"><a href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a></div></div>
 </div><!-- fragment --><p>Other CGAL libraries are linked similarly. For example, with <code>CGAL_Core</code>:</p>
-<div class="fragment"><div class="line">find_package(<a class="code hl_namespaceRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a> REQUIRED COMPONENTS Core)</div>
+<div class="fragment"><div class="line">find_package(<a class="code hl_namespaceRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a> REQUIRED COMPONENTS Core)</div>
 <div class="line">target_link_libraries(my_executable CGAL::CGAL CGAL::CGAL_Core)</div>
 </div><!-- fragment --><p>There are also imported targets to link with CGAL dependencies that can be found in the section <a class="el" href="thirdparty.html">Compilers and Third Party Dependencies</a>.</p>
 <dl class="section note"><dt>Note</dt><dd>The CGAL targets define the following compiler flags:<ul>
@@ -193,7 +193,7 @@ CMakeLists.txt</h2>
  <div class="fragment"><div class="line">cmake_minimum_required(VERSION 3.1...3.23)</div>
 <div class="line">project(Surface_mesh_Examples)</div>
 <div class="line"><span class="preprocessor">#CGAL_Qt5 is needed for the drawing.</span></div>
-<div class="line">find_package(<a class="code hl_namespaceRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a> REQUIRED OPTIONAL_COMPONENTS Qt5)</div>
+<div class="line">find_package(<a class="code hl_namespaceRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a> REQUIRED OPTIONAL_COMPONENTS Qt5)</div>
 <div class="line"> </div>
 <div class="line">create_single_source_cgal_program(<span class="stringliteral">&quot;sm_points.cpp&quot;</span>)</div>
 <div class="line">create_single_source_cgal_program(&quot;sm_derivation.cpp&quot;)</div>

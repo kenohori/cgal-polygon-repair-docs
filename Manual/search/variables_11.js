@@ -2,7 +2,7 @@ var searchData=
 [
   ['t_0',['t',['../../Polygon_repair/class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#af3802946025a306032cebef2fe386936',1,'CGAL::Polygon_repair::Polygon_repair']]],
   ['third_1',['third',['../../STL_Extension/class_c_g_a_l_1_1_quadruple.html#a3f8cc8067cd3df8d5930942b6b72fa62',1,'CGAL::Quadruple::third()'],['../../STL_Extension/class_c_g_a_l_1_1_triple.html#a259acf3abe5295dedc2f575236646339',1,'CGAL::Triple::third()']]],
-  ['threaded_2',['THREADED',['../../Circular_kernel_3/group___pkg_circular_kernel3_geometric_classes.html#gga60d9863f63464a769af1e95c50d3f89aa48994a117466d01e9a326034d470a11b',1,'CGAL']]],
+  ['threaded_2',['THREADED',['../../Circular_kernel_3/group___pkg_circular_kernel3_geometric_classes.html#gga60d9863f63464a769af1e95c50d3f89aa48994a117466d01e9a326034d470a11b',1,'CGAL::THREADED()'],['../../Circular_kernel_3/group___pkg_circular_kernel3_geometric_classes.html#gga60d9863f63464a769af1e95c50d3f89aa48994a117466d01e9a326034d470a11b',1,'CGAL::THREADED()']]],
   ['throw_5fexception_3',['THROW_EXCEPTION',['../../STL_Extension/group___pkg_s_t_l_extension_assertions.html#ggac5eee7bb7edcc41dd3251042c5934deea47ef91f2d5d0efcdc748c65519d3532d',1,'CGAL']]],
   ['time_5flimit_5freached_4',['TIME_LIMIT_REACHED',['../../Mesh_2/group___pkg_mesh2_enum.html#ggab9fe60482a45120b3c061a8a4ec9018dae51c3b06e2ee9b31f5b812cc86cbd229',1,'CGAL']]],
   ['too_5fclose_5',['TOO_CLOSE',['../../Triangulation_on_sphere_2/class_c_g_a_l_1_1_triangulation__on__sphere__2.html#a1380bd7cd4c609ad52833f5e62778368a8e335bd92ce14c8b9faedeb7e1c7d32d',1,'CGAL::Triangulation_on_sphere_2']]],

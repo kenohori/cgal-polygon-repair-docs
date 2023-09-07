@@ -2,7 +2,7 @@ var searchData=
 [
   ['barycentric_5fcoordinates_0',['Barycentric_coordinates',['../../Barycentric_coordinates_2/namespace_c_g_a_l_1_1_barycentric__coordinates.html',1,'CGAL']]],
   ['box_5fintersection_5fd_1',['Box_intersection_d',['../../Box_intersection_d/namespace_c_g_a_l_1_1_box__intersection__d.html',1,'CGAL']]],
-  ['cgal_2',['CGAL',['../../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html',1,'']]],
+  ['cgal_2',['CGAL',['../../Circular_kernel_3/namespace_c_g_a_l.html',1,'']]],
   ['classification_3',['Classification',['../../Classification/namespace_c_g_a_l_1_1_classification.html',1,'CGAL']]],
   ['contours_4',['Contours',['../../Shape_regularization/class_c_g_a_l_1_1_shape__regularization_1_1_contours_1_1_longest__direction__2.html',1,'CGAL::Shape_regularization']]],
   ['core_5',['CORE',['../../Number_types/namespace_c_o_r_e.html',1,'']]],

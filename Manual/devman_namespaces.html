@@ -170,12 +170,12 @@ $(document).ready(function(){initNavTree('devman_namespaces.html',''); initResiz
 <div class="contents">
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Stefan Schirra</dd></dl>
 <p>Names, in particular (member) function names and class names should be descriptive and easily remembered. So it is not surprising that different libraries or packages choose the same name for corresponding or similar classes and functions. A common approach to solving the naming problem is to add a prefix, for example, OpenGL adds <code>gl</code> and FLTK adds <code>fl</code>. LEDA uses prefix <code>leda_</code></p>
-<p>to some extent, but you have to tell LEDA not to make the corresponding unprefixed names available as well.<span class="footnote">CGAL's makefile does this by setting <code style="display:inline">-DLEDA_PREFIX</code>.</span> Initially, CGAL used prefix <code>CGAL_</code>. At the beginning of 1999, it was decided to drop prefix <code>CGAL_</code> and to introduce namespace <code><a class="elRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a></code>.</p>
+<p>to some extent, but you have to tell LEDA not to make the corresponding unprefixed names available as well.<span class="footnote">CGAL's makefile does this by setting <code style="display:inline">-DLEDA_PREFIX</code>.</span> Initially, CGAL used prefix <code>CGAL_</code>. At the beginning of 1999, it was decided to drop prefix <code>CGAL_</code> and to introduce namespace <code><a class="elRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a></code>.</p>
 <h1><a class="anchor" id="Developer_manualNamespaceCGAL"></a>
 Namespace CGAL</h1>
-<p>All names introduced by CGAL should be in namespace <code><a class="elRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a></code>, <em>e.g.</em>: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;something&gt;</span></div>
+<p>All names introduced by CGAL should be in namespace <code><a class="elRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a></code>, <em>e.g.</em>: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;something&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a> {</div>
+<div class="line"><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a> {</div>
 <div class="line"> </div>
 <div class="line"><span class="keyword">class </span>My_new_cgal_class {};</div>
 <div class="line"> </div>
@@ -183,11 +183,11 @@ Namespace CGAL</h1>
 <div class="line">my_new_function( My_new_cgal_class&amp; );</div>
 <div class="line"> </div>
 <div class="line">} <span class="comment">// namespace CGAL</span></div>
-<div class="ttc" id="anamespace_c_g_a_l_1_1_polygon__repair_html"><div class="ttname"><a href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a></div></div>
-</div><!-- fragment --><p> Make sure not to have include statements nested between <code> namespace <a class="elRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a> { </code> and <code> } // namespace <a class="elRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a></code>. Otherwise all names defined in the file included will be added to namespace <code><a class="elRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a></code>.</p>
+<div class="ttc" id="anamespace_c_g_a_l_html"><div class="ttname"><a href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a></div></div>
+</div><!-- fragment --><p> Make sure not to have include statements nested between <code> namespace <a class="elRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a> { </code> and <code> } // namespace <a class="elRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a></code>. Otherwise all names defined in the file included will be added to namespace <code><a class="elRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a></code>.</p>
 <h1><a class="anchor" id="Developer_manualNamespaceinternal"></a>
 Namespace internal</h1>
-<p>All names introduced by CGAL which are not documented to the user should be under an <code>internal</code> subnamespace of <code><a class="elRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a></code>, <em>e.g.</em>: </p><div class="fragment"><div class="line"><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a> { <span class="keyword">namespace </span>internal {</div>
+<p>All names introduced by CGAL which are not documented to the user should be under an <code>internal</code> subnamespace of <code><a class="elRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a></code>, <em>e.g.</em>: </p><div class="fragment"><div class="line"><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a> { <span class="keyword">namespace </span>internal {</div>
 <div class="line"> </div>
 <div class="line"><span class="keyword">class </span>My_undocumented_class {};</div>
 <div class="line"> </div>
@@ -195,7 +195,7 @@ Namespace internal</h1>
 <div class="line"> </div>
 <div class="line">}} <span class="comment">// namespace CGAL::internal</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a> { <span class="keyword">namespace </span>internal { <span class="keyword">namespace </span>Package { <span class="keyword">namespace </span>tags {</div>
+<div class="line"><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a> { <span class="keyword">namespace </span>internal { <span class="keyword">namespace </span>Package { <span class="keyword">namespace </span>tags {</div>
 <div class="line"> </div>
 <div class="line"><span class="keyword">class </span>Some_further_class_local_to_Package;</div>
 <div class="line"> </div>
@@ -205,14 +205,14 @@ Note on global template functions</h1>
 <p>According to the resolutions of the following issues in the forthcoming C++-standard ( <a href="https://www.open-std.org/jtc1/sc22/wg21/docs/lwg-defects.html#225">225</a>, <a href="https://www.open-std.org/jtc1/sc22/wg21/docs/lwg-defects.html#226">226</a> and <a href="https://www.open-std.org/jtc1/sc22/wg21/docs/lwg-defects.html#229">229</a> ): </p><blockquote class="doxtable">
 <p>Unless otherwise specified, no global or non-member function in the standard library shall use a function from another namespace which is found through argument-dependent name lookup</p>
 </blockquote>
-<p>the namespace <code>CGAL::NTS</code> does not need to be used anymore (currently <code>CGAL_NTS</code> macro boils down to <code><a class="elRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a>::</code>).</p>
+<p>the namespace <code>CGAL::NTS</code> does not need to be used anymore (currently <code>CGAL_NTS</code> macro boils down to <code><a class="elRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a>::</code>).</p>
 <h1><a class="anchor" id="Developer_manualRequirementsandrecommendations_1"></a>
 Requirements and recommendations</h1>
 <p>Requirements: </p><ul>
 <li>
-all names defined by CGAL are in namespace <code><a class="elRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a></code> (including namespaces nested in namespace <code><a class="elRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a></code>). </li>
+all names defined by CGAL are in namespace <code><a class="elRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a></code> (including namespaces nested in namespace <code><a class="elRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a></code>). </li>
 <li>
-explicitly prefix calls to template functions of <a class="elRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a> (such as <code>square</code>, <code>sign</code>, <code>abs</code>, \( \dots\) ) by <code><a class="elRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a>::</code> to ensure the functions used are the one from CGAL and not one from another library. If you want to allow an optimized function from another library to be used, then you should not qualify the call and document it explicitly (if appropriate). </li>
+explicitly prefix calls to template functions of <a class="elRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a> (such as <code>square</code>, <code>sign</code>, <code>abs</code>, \( \dots\) ) by <code><a class="elRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a>::</code> to ensure the functions used are the one from CGAL and not one from another library. If you want to allow an optimized function from another library to be used, then you should not qualify the call and document it explicitly (if appropriate). </li>
 </ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

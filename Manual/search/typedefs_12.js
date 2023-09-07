@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['tag_0',['Tag',['../../Polygon_repair/class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#ad054077db1e392dce7cf384c9880e0ad',1,'CGAL::Polygon_repair::Polygon_repair']]],
+  ['tag_0',['Tag',['../../Polygon_repair/class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a873e8fef2f2628e37b128fb1f7726c89',1,'CGAL::Polygon_repair::Polygon_repair']]],
   ['tag_5ffalse_1',['Tag_false',['../../STL_Extension/group___pkg_s_t_l_extension_utilities.html#ga89d5ecf1540b2ec0a2bf5dd003e186d0',1,'CGAL']]],
   ['tag_5ftrue_2',['Tag_true',['../../STL_Extension/group___pkg_s_t_l_extension_utilities.html#gab3e2296107b5d26c32c8183028a217f1',1,'CGAL']]],
   ['target_5fface_3',['Target_face',['../../Straight_skeleton_2/class_straight_skeleton_items_converter__2.html#aefdf14cc0dab80f87140798c06725730',1,'StraightSkeletonItemsConverter_2']]],

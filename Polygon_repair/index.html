@@ -224,7 +224,7 @@ Labeling</h2>
 <p>First, the polygon exterior is labeled. For this, all of the faces that can be accessed from the exterior without passing through an edge are labeled as exterior faces.</p>
 <p>Then, all other faces are labeled. For the odd-even heuristic, the label applied alternates between polygon interior and hole every time that an edge is passed.</p>
 <h2><a class="anchor" id="SubsectionPolygonRepair_Reconstruction"></a>
-Reconstruction of the multipolygon</h2>
+Reconstruction of the Multipolygon</h2>
 <p>The algorithm reconstructs the multipolygon boundary by boundary, obtaining counter-clockwise cycles for outer boundaries and clockwise cycles for inner boundaries. Once all boundaries have been reconstructed, the boundaries are assembled into multipolygons using the face labels to know which polygon with holes inner/outer boundaries belong to, and using the orientation to distinguish between the outer and inner boundaries of each polygon with holes.</p>
 <h2><a class="anchor" id="SubsectionPolygonRepair_Notes"></a>
 Notes on the Output</h2>
@@ -233,7 +233,7 @@ Notes on the Output</h2>
 <h1><a class="anchor" id="SectionPolygonRepair_Examples"></a>
 Examples</h1>
 <h2><a class="anchor" id="SubsectionPolygonRepair_Repair"></a>
-Repairing a (multi)polygon</h2>
+Repairing a (Multi)polygon</h2>
 <p>It's possible to repair a polygon, polygon with holes or multipolygon with holes using the odd-even rule by calling the <code>repair_odd_even</code> function as shown in the following example. This function returns a repaired multipolygon with holes.</p>
 <p><br  />
 <b>File</b> <a class="el" href="_polygon_repair_2repair_polygon_2_8cpp-example.html">Polygon_repair/repair_polygon_2.cpp</a> </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
@@ -268,7 +268,7 @@ Repairing a (multi)polygon</h2>
 <div class="ttc" id="aclass_c_g_a_l_1_1_polygon__2_html"><div class="ttname"><a href="../Polygon/class_c_g_a_l_1_1_polygon__2.html">CGAL::Polygon_2</a></div></div>
 <div class="ttc" id="aclass_c_g_a_l_1_1_polygon__with__holes__2_html"><div class="ttname"><a href="../Polygon/class_c_g_a_l_1_1_polygon__with__holes__2.html">CGAL::Polygon_with_holes_2</a></div></div>
 <div class="ttc" id="aclass_kernel_1_1_point__2_html"><div class="ttname"><a href="../Kernel_23/class_kernel_1_1_point__2.html">Kernel::Point_2</a></div></div>
-<div class="ttc" id="agroup___pkg_polygon_repair_functions_html_ga49da79f03dca3b8f2c26fc3576060b95"><div class="ttname"><a href="group___pkg_polygon_repair_functions.html#ga49da79f03dca3b8f2c26fc3576060b95">CGAL::Polygon_repair::repair_odd_even</a></div><div class="ttdeci">Multipolygon_with_holes_2&lt; Kernel, PolygonContainer &gt; repair_odd_even(const Polygon_2&lt; Kernel, PolygonContainer &gt; &amp;p)</div><div class="ttdoc">Repair a polygon without holes.</div><div class="ttdef"><b>Definition:</b> Polygon_repair.h:37</div></div>
+<div class="ttc" id="agroup___pkg_polygon_repair_functions_html_ga49da79f03dca3b8f2c26fc3576060b95"><div class="ttname"><a href="group___pkg_polygon_repair_functions.html#ga49da79f03dca3b8f2c26fc3576060b95">CGAL::Polygon_repair::repair_odd_even</a></div><div class="ttdeci">Multipolygon_with_holes_2&lt; Kernel, PolygonContainer &gt; repair_odd_even(const Polygon_2&lt; Kernel, PolygonContainer &gt; &amp;p)</div><div class="ttdoc">Repair a polygon without holes using the odd-even heuristic.</div><div class="ttdef"><b>Definition:</b> Polygon_repair.h:36</div></div>
 <div class="ttc" id="agroup___pkg_stream_support_io_funcs_w_k_t_html_ga0bf10061c888cb9be8e2c6e12be48110"><div class="ttname"><a href="../Stream_support/group___pkg_stream_support_io_funcs_w_k_t.html#ga0bf10061c888cb9be8e2c6e12be48110">CGAL::IO::read_polygon_WKT</a></div><div class="ttdeci">bool read_polygon_WKT(std::istream &amp;in, Polygon &amp;polygon)</div></div>
 <div class="ttc" id="agroup___pkg_stream_support_io_funcs_w_k_t_html_ga11a7d9adde86643a19b8635e83cc3956"><div class="ttname"><a href="../Stream_support/group___pkg_stream_support_io_funcs_w_k_t.html#ga11a7d9adde86643a19b8635e83cc3956">CGAL::IO::write_polygon_WKT</a></div><div class="ttdeci">std::ostream &amp; write_polygon_WKT(std::ostream &amp;out, const Polygon &amp;poly)</div></div>
 <div class="ttc" id="agroup___pkg_stream_support_io_funcs_w_k_t_html_ga56eb9fc151c6a52af723d65612f4d2ee"><div class="ttname"><a href="../Stream_support/group___pkg_stream_support_io_funcs_w_k_t.html#ga56eb9fc151c6a52af723d65612f4d2ee">CGAL::IO::write_multi_polygon_WKT</a></div><div class="ttdeci">std::ostream &amp; write_multi_polygon_WKT(std::ostream &amp;out, MultiPolygon &amp;polygons)</div></div>
@@ -286,7 +286,7 @@ Performance</h1>
 </table>
 <h1><a class="anchor" id="SectionPolygonRepair_History"></a>
 History</h1>
-<p>The polygon repair method as originally developed is described by Ledoux et al. <a class="el" href="citelist.html#CITEREF_ledoux2014triangulation">[1]</a> and implemented in the <a href="https://github.com/tudelft3d/prepair/">prepair</a> software. This package is a reimplementation of the method with a new approach to label and reconstruct the multipolygons. It also incorporates improvements later added to prepair, such as the application of the odd-even counting heuristic to edges.</p>
+<p>The polygon repair method as originally developed is described by Ledoux et al. <a class="el" href="citelist.html#CITEREF_ledoux2014triangulation">[1]</a> and implemented in the <a href="https://github.com/tudelft3d/prepair/">prepair</a> software. This package is a reimplementation of the method with a new approach to label and reconstruct the multipolygons. It also incorporates improvements later added to prepair, such as the application of the odd-even counting heuristic to edges, which enables correct counting even on partially overlapping edges.</p>
 <p>Ken Arroyo Ohori made a prototype version of this package for the Google Summer of Code 2023 under the mentorship of Sébastien Loriot and Andreas Fabri. </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->

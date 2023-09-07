@@ -228,11 +228,11 @@ Categories of checks</h1>
 Using checks</h1>
 <p>The checks are implemented as preprocessor macros;</p>
 <p><em>i.e.</em>, <code>CGAL_&lt;check_type&gt;(&lt;Cond&gt;)</code> realizes a check of type <code>&lt;check_type&gt;</code> that asserts the condition <code>&lt;Cond&gt;</code>. For example, </p><div class="fragment"><div class="line">CGAL_precondition( first != last);</div>
-</div><!-- fragment --><p> checks the precondition that a given iterator range is not empty. If the check fails, an error message similar to </p><div class="fragment"><div class="line"><a class="code hl_namespaceRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a> error: precondition violation!</div>
+</div><!-- fragment --><p> checks the precondition that a given iterator range is not empty. If the check fails, an error message similar to </p><div class="fragment"><div class="line"><a class="code hl_namespaceRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a> error: precondition violation!</div>
 <div class="line">Expr: first != last</div>
 <div class="line">File: &lt;file name&gt;</div>
 <div class="line">Line: &lt;source code line&gt;</div>
-<div class="ttc" id="anamespace_c_g_a_l_1_1_polygon__repair_html"><div class="ttname"><a href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a></div></div>
+<div class="ttc" id="anamespace_c_g_a_l_html"><div class="ttname"><a href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a></div></div>
 </div><!-- fragment --><p> is written to the standard error stream and the program is aborted. If an additional explanation should be given to the user, macros <code>CGAL_&lt;check_type&gt;_msg(&lt;Cond&gt;,&lt;Msg&gt;)</code> can be used. The text in <code>&lt;Msg&gt;</code> is just appended to the failure message given above.</p>
 <p>In case a check is more complicated and the computation does not fit into a single statement, the additional code can be encapsulated using <code>CGAL_&lt;check_type&gt;_code(&lt;Code&gt;)</code>. This has the advantage that the computation is not done if the corresponding category is disabled. For an example, suppose an algorithm computes a convex polygon. Thus we want to check the postcondition that the polygon is indeed convex, which we consider an expensive check. The code would look like this. </p><div class="fragment"><div class="line">CGAL_expensive_postcondition_code( <span class="keywordtype">bool</span> is_convex; )</div>
 <div class="line">CGAL_expensive_postcondition_code( <span class="comment">/* compute convexity */</span> )</div>

@@ -171,15 +171,12 @@ $(document).ready(function(){initNavTree('class_c_g_a_l_1_1_polygon__repair_1_1_
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a>  </div>
-  <div class="headertitle"><div class="title">CGAL::Polygon_repair::Polygon_repair&lt; Kernel, PolygonContainer &gt; Class Template Reference<div class="ingroups"><a class="el" href="group___pkg_polygon_repair_ref.html">2D Polygon Repair Reference</a></div></div></div>
+  <div class="headertitle"><div class="title">CGAL::Polygon_repair::Polygon_repair&lt; Kernel, PolygonContainer &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;CGAL/Polygon_repair/Polygon_repair.h&gt;</code></p>
-<a name="details" id="details"></a><h2 class="groupheader">Definition</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;class <a class="elRef" href="../Kernel_23/class_kernel.html">Kernel</a> = CGAL::Exact_predicates_inexact_constructions_kernel, class PolygonContainer = std::vector&lt;typename Kernel::Point_2&gt;&gt;<br />
-class CGAL::Polygon_repair::Polygon_repair&lt; Kernel, PolygonContainer &gt;</div><p>The class <code><a class="el" href="class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html" title="The class Polygon_repair builds on a constrained triangulation to remove the parts of constraints tha...">Polygon_repair</a></code> builds on a constrained triangulation to remove the parts of constraints that overlap an even number of times. </p>
-</div><table class="memberdecls">
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair_1_1_polygon__less.html">Polygon_less</a></td></tr>
@@ -201,21 +198,36 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Face_base_with_repai
 <tr class="memitem:a8363f258349c1044854dd49f7df46897"><td class="memItemLeft" align="right" valign="top"><a id="a8363f258349c1044854dd49f7df46897" name="a8363f258349c1044854dd49f7df46897"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Triangulation_data_structure</b> = CGAL::Triangulation_data_structure_2&lt; <a class="el" href="class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a73c11105416871a325515375f38d5c2a">Vertex_base</a>, <a class="el" href="class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#adfc541fbd15832439228db2f1538a782">Face_base_with_repair_info</a> &gt;</td></tr>
 <tr class="separator:a8363f258349c1044854dd49f7df46897"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad054077db1e392dce7cf384c9880e0ad"><td class="memItemLeft" align="right" valign="top"><a id="ad054077db1e392dce7cf384c9880e0ad" name="ad054077db1e392dce7cf384c9880e0ad"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>Tag</b> = CGAL::Exact_predicates_tag</td></tr>
-<tr class="separator:ad054077db1e392dce7cf384c9880e0ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a873e8fef2f2628e37b128fb1f7726c89"><td class="memItemLeft" align="right" valign="top"><a id="a873e8fef2f2628e37b128fb1f7726c89" name="a873e8fef2f2628e37b128fb1f7726c89"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Tag</b> = typename std::conditional&lt; std::is_floating_point&lt; typename Kernel::FT &gt;::value, CGAL::Exact_predicates_tag, CGAL::Exact_intersections_tag &gt;::type</td></tr>
+<tr class="separator:a873e8fef2f2628e37b128fb1f7726c89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7072a37a39d6cbd82c67e129bd1042a"><td class="memItemLeft" align="right" valign="top"><a id="aa7072a37a39d6cbd82c67e129bd1042a" name="aa7072a37a39d6cbd82c67e129bd1042a"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>Constrained_Delaunay_triangulation</b> = CGAL::Constrained_Delaunay_triangulation_2&lt; <a class="elRef" href="../Kernel_23/class_kernel.html">Kernel</a>, <a class="el" href="class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a8363f258349c1044854dd49f7df46897">Triangulation_data_structure</a>, <a class="el" href="class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#ad054077db1e392dce7cf384c9880e0ad">Tag</a> &gt;</td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Constrained_Delaunay_triangulation</b> = CGAL::Constrained_Delaunay_triangulation_2&lt; <a class="elRef" href="../Kernel_23/class_kernel.html">Kernel</a>, <a class="el" href="class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a8363f258349c1044854dd49f7df46897">Triangulation_data_structure</a>, <a class="el" href="class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a873e8fef2f2628e37b128fb1f7726c89">Tag</a> &gt;</td></tr>
 <tr class="separator:aa7072a37a39d6cbd82c67e129bd1042a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac14fa20deb731ca2a373d60ffe654e38"><td class="memItemLeft" align="right" valign="top"><a id="ac14fa20deb731ca2a373d60ffe654e38" name="ac14fa20deb731ca2a373d60ffe654e38"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Triangulation</b> = <a class="el" href="class_c_g_a_l_1_1_triangulation__with__odd__even__constraints__2.html">Triangulation_with_odd_even_constraints_2</a>&lt; <a class="el" href="class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#aa7072a37a39d6cbd82c67e129bd1042a">Constrained_Delaunay_triangulation</a> &gt;</td></tr>
 <tr class="separator:ac14fa20deb731ca2a373d60ffe654e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a435cb0c7dedf3d78c47a8f534dd122af"><td class="memItemLeft" align="right" valign="top"><a id="a435cb0c7dedf3d78c47a8f534dd122af" name="a435cb0c7dedf3d78c47a8f534dd122af"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Edge_map</b> = typename std::conditional&lt; std::is_floating_point&lt; typename Kernel::FT &gt;::value, std::unordered_set&lt; std::pair&lt; typename <a class="elRef" href="../Kernel_23/class_kernel_1_1_point__2.html">Kernel::Point_2</a>, typename <a class="elRef" href="../Kernel_23/class_kernel_1_1_point__2.html">Kernel::Point_2</a> &gt;, boost::hash&lt; std::pair&lt; typename <a class="elRef" href="../Kernel_23/class_kernel_1_1_point__2.html">Kernel::Point_2</a>, typename <a class="elRef" href="../Kernel_23/class_kernel_1_1_point__2.html">Kernel::Point_2</a> &gt; &gt; &gt;, std::set&lt; std::pair&lt; typename <a class="elRef" href="../Kernel_23/class_kernel_1_1_point__2.html">Kernel::Point_2</a>, typename <a class="elRef" href="../Kernel_23/class_kernel_1_1_point__2.html">Kernel::Point_2</a> &gt; &gt; &gt;::type</td></tr>
+<tr class="separator:a435cb0c7dedf3d78c47a8f534dd122af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16610742c86e62403b806002238d78ea"><td class="memItemLeft" align="right" valign="top"><a id="a16610742c86e62403b806002238d78ea" name="a16610742c86e62403b806002238d78ea"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Vertex_map</b> = typename std::conditional&lt; std::is_floating_point&lt; typename Kernel::FT &gt;::value, std::unordered_map&lt; typename <a class="elRef" href="../Kernel_23/class_kernel_1_1_point__2.html">Kernel::Point_2</a>, typename <a class="el" href="class_c_g_a_l_1_1_triangulation__with__odd__even__constraints__2.html#a6c8928873c57c1c265e72263b1ccb7df">Triangulation::Vertex_handle</a> &gt;, std::map&lt; typename <a class="elRef" href="../Kernel_23/class_kernel_1_1_point__2.html">Kernel::Point_2</a>, typename <a class="el" href="class_c_g_a_l_1_1_triangulation__with__odd__even__constraints__2.html#a6c8928873c57c1c265e72263b1ccb7df">Triangulation::Vertex_handle</a> &gt; &gt;::type</td></tr>
+<tr class="separator:a16610742c86e62403b806002238d78ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3615996bce9f9438fe774dcff3f27aaa"><td class="memItemLeft" align="right" valign="top"><a id="a3615996bce9f9438fe774dcff3f27aaa" name="a3615996bce9f9438fe774dcff3f27aaa"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Validation_tag</b> = CGAL::No_constraint_intersection_tag</td></tr>
+<tr class="separator:a3615996bce9f9438fe774dcff3f27aaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98696f7c5f3e7f11195e1802bc123958"><td class="memItemLeft" align="right" valign="top"><a id="a98696f7c5f3e7f11195e1802bc123958" name="a98696f7c5f3e7f11195e1802bc123958"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Validation_triangulation</b> = CGAL::Constrained_triangulation_2&lt; <a class="elRef" href="../Kernel_23/class_kernel.html">Kernel</a>, <a class="el" href="class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a8363f258349c1044854dd49f7df46897">Triangulation_data_structure</a>, <a class="el" href="class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a3615996bce9f9438fe774dcff3f27aaa">Validation_tag</a> &gt;</td></tr>
+<tr class="separator:a98696f7c5f3e7f11195e1802bc123958"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:af3802946025a306032cebef2fe386936"><td class="memItemLeft" align="right" valign="top"><a id="af3802946025a306032cebef2fe386936" name="af3802946025a306032cebef2fe386936"></a>
 <a class="el" href="class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#ac14fa20deb731ca2a373d60ffe654e38">Triangulation</a>&#160;</td><td class="memItemRight" valign="bottom"><b>t</b></td></tr>
 <tr class="separator:af3802946025a306032cebef2fe386936"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff354e2e5709ef422627536c15d28f96"><td class="memItemLeft" align="right" valign="top"><a id="aff354e2e5709ef422627536c15d28f96" name="aff354e2e5709ef422627536c15d28f96"></a>
+<a class="el" href="class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a435cb0c7dedf3d78c47a8f534dd122af">Edge_map</a>&#160;</td><td class="memItemRight" valign="bottom"><b>unique_edges</b></td></tr>
+<tr class="separator:aff354e2e5709ef422627536c15d28f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0c47c26198b33760a47bd32c12fbf37"><td class="memItemLeft" align="right" valign="top"><a id="af0c47c26198b33760a47bd32c12fbf37" name="af0c47c26198b33760a47bd32c12fbf37"></a>
 <a class="elRef" href="../Polygon/class_c_g_a_l_1_1_multipolygon__with__holes__2.html">Multipolygon_with_holes_2</a>&lt; <a class="elRef" href="../Kernel_23/class_kernel.html">Kernel</a>, PolygonContainer &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>mp</b></td></tr>
 <tr class="separator:af0c47c26198b33760a47bd32c12fbf37"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -244,9 +256,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>add_to_triangulation_
 <tr class="memitem:a7335b7699bcc5813a6286426448aa388"><td class="memItemLeft" align="right" valign="top"><a id="a7335b7699bcc5813a6286426448aa388" name="a7335b7699bcc5813a6286426448aa388"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>add_to_triangulation_odd_even</b> (const <a class="elRef" href="../Polygon/class_c_g_a_l_1_1_multipolygon__with__holes__2.html">Multipolygon_with_holes_2</a>&lt; <a class="elRef" href="../Kernel_23/class_kernel.html">Kernel</a>, PolygonContainer &gt; &amp;<a class="el" href="class_c_g_a_l_1_1_polygon__repair_1_1_polygon__repair.html#a56d0ca4c89dda61e52d0db3c1cd8efad">multipolygon</a>)</td></tr>
 <tr class="separator:a7335b7699bcc5813a6286426448aa388"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b600dedc405381b229e05d1f3d8deb7"><td class="memItemLeft" align="right" valign="top"><a id="a0b600dedc405381b229e05d1f3d8deb7" name="a0b600dedc405381b229e05d1f3d8deb7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>label_region</b> (typename <a class="el" href="class_c_g_a_l_1_1_triangulation__with__odd__even__constraints__2.html#a7dff5dc5c95a3cdb0db066b932e8aa56">Triangulation::Face_handle</a> face, int label, std::list&lt; typename <a class="el" href="class_c_g_a_l_1_1_triangulation__with__odd__even__constraints__2.html#a7dff5dc5c95a3cdb0db066b932e8aa56">Triangulation::Face_handle</a> &gt; &amp;to_check, std::list&lt; int &gt; &amp;to_check_added_by)</td></tr>
-<tr class="separator:a0b600dedc405381b229e05d1f3d8deb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62591319bf9f113368ec5e5522236dd2"><td class="memItemLeft" align="right" valign="top"><a id="a62591319bf9f113368ec5e5522236dd2" name="a62591319bf9f113368ec5e5522236dd2"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>label_triangulation_odd_even</b> ()</td></tr>
 <tr class="separator:a62591319bf9f113368ec5e5522236dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -259,6 +268,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>reconstruct_multipoly
 <tr class="memitem:a3e81ff42a65780e68173f57f73d1cb57"><td class="memItemLeft" align="right" valign="top"><a id="a3e81ff42a65780e68173f57f73d1cb57" name="a3e81ff42a65780e68173f57f73d1cb57"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
 <tr class="separator:a3e81ff42a65780e68173f57f73d1cb57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13fb050e757f9d17485fe12bfa9df44a"><td class="memTemplParams" colspan="2"><a id="a13fb050e757f9d17485fe12bfa9df44a" name="a13fb050e757f9d17485fe12bfa9df44a"></a>
+template&lt;class T &gt; </td></tr>
+<tr class="memitem:a13fb050e757f9d17485fe12bfa9df44a"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>label_region</b> (T tt, typename T::Face_handle face, int label, std::list&lt; typename T::Face_handle &gt; &amp;to_check, std::list&lt; int &gt; &amp;to_check_added_by)</td></tr>
+<tr class="separator:a13fb050e757f9d17485fe12bfa9df44a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader">Access Functions</h2></td></tr>
 <tr class="memitem:a28875a920832d9bc10b78fb8c9338415"><td class="memItemLeft" align="right" valign="top"><a id="a28875a920832d9bc10b78fb8c9338415" name="a28875a920832d9bc10b78fb8c9338415"></a>

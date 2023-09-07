@@ -95,7 +95,7 @@ var searchData=
   ['erase_5finner_5fccb_92',['erase_inner_ccb',['../../Arrangement_on_surface_2/class_arrangement_dcel_face.html#a4339f4722dd3845da01b950a086e2d8c',1,'ArrangementDcelFace']]],
   ['erase_5fisolated_5fvertex_93',['erase_isolated_vertex',['../../Arrangement_on_surface_2/class_arrangement_dcel_face.html#a996569d42ff78b6202a70b4ee9cf78b2',1,'ArrangementDcelFace']]],
   ['erase_5fouter_5fccb_94',['erase_outer_ccb',['../../Arrangement_on_surface_2/class_arrangement_dcel_face.html#af058e47d39b27a037aaa864ba443d5b7',1,'ArrangementDcelFace']]],
-  ['erase_5fpolygon_95',['erase_polygon',['../../Polygon_repair/class_c_g_a_l_1_1_multipolygon__with__holes__2.html#adc10ba17e76a6dedf4c0f20fdd428cce',1,'CGAL::Multipolygon_with_holes_2::erase_polygon()'],['../../Polygon_repair/class_multipolygon_with_holes__2.html#aad5fe321e5f4a02e1eda29b50cb16f27',1,'MultipolygonWithHoles_2::erase_polygon()']]],
+  ['erase_5fpolygon_95',['erase_polygon',['../../Polygon/class_multipolygon_with_holes__2.html#aad5fe321e5f4a02e1eda29b50cb16f27',1,'MultipolygonWithHoles_2']]],
   ['erase_5froi_5fvertex_96',['erase_roi_vertex',['../../Surface_mesh_deformation/class_c_g_a_l_1_1_surface__mesh__deformation.html#a99289fe44079f4bc13b4b7bad32bb96f',1,'CGAL::Surface_mesh_deformation']]],
   ['erase_5fvertex_5fattribute_97',['erase_vertex_attribute',['../../Linear_cell_complex/class_linear_cell_complex.html#affaee915bb81bd135928436270d37b81',1,'LinearCellComplex']]],
   ['error_98',['error',['../../Polyhedron/class_c_g_a_l_1_1_polyhedron__incremental__builder__3.html#ac59035edb88e2ad47085a6f4f6951581',1,'CGAL::Polyhedron_incremental_builder_3']]],

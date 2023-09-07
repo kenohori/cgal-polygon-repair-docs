@@ -175,7 +175,7 @@ Running the Testsuite Locally of a Single Package</h1>
 <ul>
 <li>A shell such as bash (install Cygwin, when you are on Windows)</li>
 <li><em>optional:</em> put <code>Scripts/scripts</code> and <code>Scripts/developer_scripts</code> on your <code>PATH</code> environment variable or Alternatively, you can call the scripts mentioned below using their full path or a relative path</li>
-<li>define the environment variable <code>CGAL_DIR</code>. It should be the directory where you built <a class="elRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a>.</li>
+<li>define the environment variable <code>CGAL_DIR</code>. It should be the directory where you built <a class="elRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a>.</li>
 <li><em>optional:</em> define the environment variables for Boost, GMP, and any optional third party lib, e.g. Eigen.</li>
 <li><em>On Windows:</em> define the environment variable <code>MAKE_CMD</code> (put the line <code>export MAKE_CMD=nmake</code> in your <code>$HOME/.bashrc</code> for VC++)</li>
 <li><em>On Windows:</em> define the environment variable <code>CMAKE_GENERATOR</code> (put the line <code>export CMAKE_GENERATOR='-GNMake Makefiles'</code> in your <code>$HOME/.bashrc</code> for VC++)</li>
@@ -188,10 +188,10 @@ Running the Whole Testsuite</h1>
 <p>The creation of the flat release is done using the script <code>create_internal_release</code> located in the directory <code>Scripts/developer_scripts</code>. Running the script with no argument will give the complete usage of this script. We only describe one way of using it.</p>
 <p>The prerequisite is to have a checkout of the branch we want to test. In the example, it will be located in <code>~/Git/cgal/</code>.</p>
 <p>First one goes into a directory where the flat release will be created: </p><div class="fragment"><div class="line">&gt; cd /tmp</div>
-</div><!-- fragment --><p>Then the script <code>create_internal_release</code> is ran: </p><div class="fragment"><div class="line">&gt;  create_internal_release -r <a class="code hl_namespaceRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a>-I-FOO -a ~/Git/cgal/</div>
-<div class="ttc" id="anamespace_c_g_a_l_1_1_polygon__repair_html"><div class="ttname"><a href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a></div></div>
+</div><!-- fragment --><p>Then the script <code>create_internal_release</code> is ran: </p><div class="fragment"><div class="line">&gt;  create_internal_release -r <a class="code hl_namespaceRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a>-I-FOO -a ~/Git/cgal/</div>
+<div class="ttc" id="anamespace_c_g_a_l_html"><div class="ttname"><a href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a></div></div>
 </div><!-- fragment --><p>The directory <code>CGAL-I-FOO</code> now contains the flat release of the branch in <code>~/Git/cgal</code>. Then you need to compile this flat release and set <code>CGAL_DIR</code> accordingly as explained in the installation manual.</p>
-<p>To run the test-suite simply do: </p><div class="fragment"><div class="line">&gt; cd <a class="code hl_namespaceRef" href="../Polygon_repair/namespace_c_g_a_l_1_1_polygon__repair.html">CGAL</a>-I-FOO/test</div>
+<p>To run the test-suite simply do: </p><div class="fragment"><div class="line">&gt; cd <a class="code hl_namespaceRef" href="../Circular_kernel_3/namespace_c_g_a_l.html">CGAL</a>-I-FOO/test</div>
 <div class="line">&gt; ./run_testsuite_with_cmake</div>
 </div><!-- fragment --><p> and wait for the results to be written in the file <code>error.txt</code>. </p>
 </div></div><!-- contents -->

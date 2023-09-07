@@ -18,7 +18,7 @@ var searchData=
   ['distance_20functions_15',['Distance Functions',['../../Polygon_mesh_processing/group___p_m_p__distance__grp.html',1,'']]],
   ['domain_20classes_16',['Domain Classes',['../../Mesh_3/group___pkg_mesh3_domains.html',1,'(Global Namespace)'],['../../Periodic_3_mesh_3/group___pkg_periodic3_mesh3_domains.html',1,'(Global Namespace)']]],
   ['doubly_2dconnected_20list_20managing_20items_20in_20place_17',['Doubly-Connected List Managing Items in Place',['../../STL_Extension/group__inplacelist.html',1,'']]],
-  ['draw_20a_202d_20multipolygon_20with_20holes_18',['Draw a 2D Multipolygon with holes',['../../Polygon_repair/group___pkg_draw_multipolygon_with_holes2.html',1,'']]],
+  ['draw_20a_202d_20multipolygon_20with_20holes_18',['Draw a 2D Multipolygon with Holes',['../../Polygon/group___pkg_draw_multipolygon_with_holes2.html',1,'']]],
   ['draw_20a_202d_20periodic_20triangulation_19',['Draw a 2D Periodic Triangulation',['../../Periodic_2_triangulation_2/group___pkg_draw_periodic2_triangulation2.html',1,'']]],
   ['draw_20a_202d_20polygon_20',['Draw a 2D Polygon',['../../Polygon/group___pkg_draw_polygon2.html',1,'']]],
   ['draw_20a_202d_20polygon_20set_21',['Draw a 2D Polygon Set',['../../Boolean_set_operations_2/group___pkg_draw_polygon_set2.html',1,'']]],
